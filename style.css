@@ -12,9 +12,11 @@ p{
 a
 {
     text-decoration: none;
+    color: white;
 }
 
 .header{
+    background: #1d1e20;
     display: flex;
     /*Quando a tela for pequena o header vai para cima e a outra parte vai para baixo*/
     flex-wrap: wrap;
@@ -22,5 +24,12 @@ a
     justify-content: space-between;
     /*Alinha ao centro de forma vertical */
     align-items: center;
+    padding: 20px;
+}
+
+.menu{
+    /* os elementos sempre vão se alinhar de forma horizontal quando aplicado isso*/
+    display: flex;
+
 }
 
