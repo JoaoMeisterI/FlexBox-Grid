@@ -14,3 +14,13 @@ a
     text-decoration: none;
 }
 
+.header{
+    display: flex;
+    /*Quando a tela for pequena o header vai para cima e a outra parte vai para baixo*/
+    flex-wrap: wrap;
+    /*Espaçamento entre os itens de forma horizontal */
+    justify-content: space-between;
+    /*Alinha ao centro de forma vertical */
+    align-items: center;
+}
+
